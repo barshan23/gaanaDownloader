@@ -1,4 +1,3 @@
-// changed to bitbucket
 function removetext() {
 	//console.log("Clicked");
 	browser.browserAction.setBadgeText({text: ""});
