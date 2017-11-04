@@ -2,6 +2,6 @@
 	"name" : "gaana",
 	"description" : " None",
 	"type" : "stdio",
-	"path" : "/home/barshan23/Desktop/g.py",
+	"path" : "/home/barshan23/E/Source_codes/GaanaDownloader/g.py",
 	"allowed_extensions" : ["gaa@example.com"]
 }

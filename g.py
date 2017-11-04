@@ -83,11 +83,11 @@ elif mode == "2":
 
 
 # check if directory named Gaana exists, if not then create the directory
-if not os.path.exists('./Gaana/'):
-	os.makedirs('Gaana')
+if not os.path.exists('../Gaana/'):
+	os.makedirs('../Gaana')
 
 # converting the .ts file to mp3 using ffmpeg
-subprocess.call(['ffmpeg','-i',name+'.ts','./Gaana/'+name+'.mp3'])
+subprocess.call(['ffmpeg','-i',name+'.ts','../Gaana/'+name+'.mp3'])
 os.remove('./'+name+'.ts')
 
 sendMessage(encodeMessage("Completed"))
