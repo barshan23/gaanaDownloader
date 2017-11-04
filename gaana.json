@@ -1,0 +1,7 @@
+{
+	"name" : "gaana",
+	"description" : " None",
+	"type" : "stdio",
+	"path" : "/home/barshan23/Desktop/g.py",
+	"allowed_extensions" : ["gaa@example.com"]
+}
